@@ -7,6 +7,7 @@ public class Powertest {
     public void one_raised_to_one_is_onew() {
 
         assert Powerfinder.oF(1,1) == 1;
+
     }
 
     @Test
