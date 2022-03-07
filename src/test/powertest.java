@@ -1,9 +1,11 @@
 package powerpackage;
 import org.junit.jupiter.api.Test;
 
+
 public class Powertest {
     @Test
     public void one_raised_to_one_is_onew() {
+
         assert Powerfinder.oF(1,1) == 1;
     }
 
@@ -22,6 +24,6 @@ public class Powertest {
     @Test
     public void power_of_2_and_3_Is_SIX() {
 
-        assert Powerfinder.oF(3, 2) == 3*3;
+        assert Powerfinder.oF(3, 2) == 9;
     }
 }
