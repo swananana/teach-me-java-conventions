@@ -1,6 +1,7 @@
 package powerpackage;
+import powerpackage.*;
 import org.junit.jupiter.api.Test;
-import org.junit.Test;
+
 
 public class PowerfinderTest {
     @Test
